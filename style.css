@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #2f3247;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  height: 95%;
+  background-color: #2f3247;
+  border-radius: 25px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Верхние кнопки */
+.top-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.btn {
+  background: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+/* Блок с картинками */
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  width: 100%;
+}
+
+.img-box {
+  border: 3px solid orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.img-box img {
+  width: 350px;
+  height: auto;
+}
+
+.no-border {
+  border: none;
+    
+}
+
+/* Центральный FlexBox */
+.center-box {
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 50px;
+  border-radius: 20px;
+}
+
+/* Нижний текст */
+.bottom-texts {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  width: 100%;
+}
+
+.text-box {
+  background: red;
+  border-radius: 30px;
+  padding: 20px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-text {
+  background: lime;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+iframe{
+      width: 350px;
+  height: 240px;
+}
